@@ -1,0 +1,96 @@
+.body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Young serif', sans-serif;
+    font-weight: 400;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Young serif', sans-serif;
+    font-weight: 400;
+    padding-left: 50px;
+}
+.text{
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+.box {
+    padding: 50px;
+    border-radius: 30px;
+    margin: 20px;
+    background-color: pink;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.title {
+    font-size: 24px;
+    color: purple;
+}
+img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.Ingredients {
+    color: brown;
+    font-size: 35px;
+   margin-top: 20px;
+   padding: 10px;
+   margin-bottom: 10px;
+}
+ 
+.list { 
+    justify-self: space-between;
+    font-size: 20px;
+    align-items: center;
+                                                                                                                                                  
+}
+
+.Instructions {
+    color: brown;
+    font-size: 35px;
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.listed {
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Nutrition {
+    color: brown;
+    font-size: 35px;
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+
+th, td {
+    border-bottom: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+    color: brown;
+}
